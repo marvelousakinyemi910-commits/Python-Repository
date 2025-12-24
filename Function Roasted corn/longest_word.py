@@ -6,7 +6,7 @@ def longest_word(words):
     return longest,len(longest)       
      
 
-words = input("Enter a list of word separated by a comma: ").split()
+words = input("Enter a list of word separated by a space: ").split()
 
 
-print(longest_word(words)
+print(longest_word(words))
