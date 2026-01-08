@@ -87,7 +87,7 @@ while True:
     elif option == "5":
         show_books()
     elif option == "6":
-        print("Goodbye!")
+        print("Goodbye!g")
         break
     else:
         print("Invalid option!")
