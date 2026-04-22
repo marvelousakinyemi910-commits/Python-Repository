@@ -1,6 +1,4 @@
 
-
-
 import random
 def random_numbers():
     numbers = []
@@ -12,6 +10,7 @@ def random_numbers():
     return numbers
 print(random_numbers())
 
+
 def list_length(values):
     
     count = 0
@@ -21,6 +20,7 @@ def list_length(values):
 values = [2,3,4,5,6,7,8]
 print(list_length(values))
 
+
 def sum_even_positions(numbers):
     
     total_even_positions = 0
@@ -28,6 +28,8 @@ def sum_even_positions(numbers):
         if index % 2 == 0:
             total_even_positions += numbers[index]
     return total_even_positions
+numbers =  [2,3,4,5,6,7,8]
+print(sum_even_positions(numbers))
 
 def sum_odd_positions(numbers):
   
@@ -36,6 +38,8 @@ def sum_odd_positions(numbers):
         if index % 2 != 0:
             total_odd_positions += numbers[index]
     return total_odd_positions
+numbers =  [2,3,4,5,6,7,8]
+print(sum_odd_positions(numbers))
 
 def multiply_third_position(numbers):
    
@@ -80,9 +84,9 @@ numbers = [1,2,3,4,5]
 print(smallest_element(numbers))
 
 def display_list_of_integer(numbers):
+    for numbers in range(1,16):
     
-    for number in numbers:
-        return number
+        print(numbers)
 
 
 def add_third_element(numbers):
@@ -104,6 +108,9 @@ def first_and_last_Strings(words):
     return result
 words = ["ogo","aba","marve"]
 print(first_and_last_Strings(words))
+
+
+
 
 
 
